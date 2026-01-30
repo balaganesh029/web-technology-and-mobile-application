@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .college {
+            font-size: 32px;
+            font-weight: bold;
+            margin-bottom: 25px;
+            color: #00e5ff;
+            text-shadow:
+                0 0 5px #00e5ff,
+                0 0 10px #00e5ff,
+                0 0 20px #00bcd4,
+                0 0 40px #00bcd4;
+        }
+
+        .book {
+            display: flex;
+            width: 720px;
+            height: 420px;
+            background: #d7ccc8;
+            border-radius: 18px;
+            box-shadow: 0 15px 30px rgba(0,0,0,0.35);
+        }
+
+        .spine {
+            width: 18px;
+            background: linear-gradient(to bottom, #4e342e, #3e2723);
+        }
+
+        .page {
+            background: #fffdf7;
+            width: 351px;
+            padding: 25px;
+        }
+
+        .left {
+            border-radius: 18px 0 0 18px;
+        }
+
+        .right {
+            border-radius: 0 18px 18px 0;
+        }
+
+        h2 {
+            text-align: center;
+            color: #3e2723;
+            margin-bottom: 20px;
+        }
+
+        label {
+            font-weight: bold;
+            color: #3e2723;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 8px;
+            margin: 6px 0 14px 0;
+            border: 1px solid #bdbdbd;
+            border-radius: 6px;
+        }
+
+        input[type="radio"] {
+            margin-right: 6px;
+        }
+
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            background: #4e342e;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 15px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background: #3e2723;
+        }
+
+        .icon {
+            font-size: 38px;
+            text-align: center;
+            opacity: 0.95;
+            margin-top: 25px;
+        }
+
+        .doneby {
+            margin-top: 18px;
+            font-size: 14px;
+            color: #e0f7fa;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="college">RAJALAKSHMI ENGINEERING COLLEGE</div>
+
+    <div class="book">
+        <div class="page left">
+            <h2>Student Details</h2>
+
+            <label>Roll Number</label>
+            <input type="text">
+
+            <label>Mobile Number</label>
+            <input type="text">
+
+            <div class="icon">📚 ✏️ 🖊️</div>
+        </div>
+
+        <div class="spine"></div>
+
+        <div class="page right">
+            <h2>Registration</h2>
+
+            <label>Email ID</label>
+            <input type="text">
+
+            <label>Attendance</label><br>
+            <input type="radio" name="att"> Present
+            <input type="radio" name="att"> Absent
+            <br><br>
+
+            <input type="submit" value="Register">
+
+            <div class="icon">🪪 📝</div>
+        </div>
+    </div>
+
+
+</body>
+</html>
