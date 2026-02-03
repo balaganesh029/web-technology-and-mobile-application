@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -109,7 +110,7 @@
 
 <body>
 
-    <div class="college">RAJALAKSHMI ENGINEERING COLLEGE</div>
+    <div class="college">  RAJALAKSHMI ENGINEERING COLLEGE</div>
 
     <div class="book">
         <div class="page left">
@@ -117,10 +118,13 @@
 
             <label>Roll Number</label>
             <input type="text">
+            
+            <label>Name</label>
+            <input type="text">
 
             <label>Mobile Number</label>
             <input type="text">
-
+            
             <div class="icon">📚 ✏️ 🖊️</div>
         </div>
 
@@ -142,10 +146,10 @@
             <div class="icon">🪪 📝</div>
         </div>
     </div>
-    <div class="doneby">copy rights reserved </div>
+
     <div class="doneby">Done by – Balaganesh P</div>
     <div class="doneby">241501029-AIML </div>
 
-
 </body>
 </html>
+
